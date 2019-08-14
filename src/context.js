@@ -1,14 +1,21 @@
 import React from 'react';
+import axios from 'axios';
 
 const Context = React.createContext();
 
-class Provider extends React.Component {
+export class Provider extends React.Component {
   state = {
-    data_list: [
-      { data: { data_name:'abc' } },
-      { data: { data_name:'123'} }
-    ],
+    data_list: [],
     heading: 'Description'
+  };
+
+  componentDidMount() {
+    axios.get(`http://localhost:3000/data`)
+      .then(resp => {
+        // console.log(resp.data)
+        this.setState({data_list: resp.data })
+      })
+      .catch(err => console.log(err))
   }
   render() {
     return (
