@@ -8,8 +8,13 @@ class Data extends React.Component {
       <div>
         <Consumer>
           {value => {
-            console.log(value)
-            return <h1>data</h1>
+            const { data_list } = value;
+            if(data_list === undefined || data_list.length === 0) {
+              return <Spinner />
+            } else {
+              return <h1>Data Loaded</h1>
+            }
+
           }}
         </Consumer>
       </div>
