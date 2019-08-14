@@ -13,7 +13,7 @@ export class Provider extends React.Component {
     axios.get(`http://localhost:3000/data`)
       .then(resp => {
         // console.log(resp.data)
-        this.setState({data_list: resp.data })
+        this.setState({data_list: resp.data.slice(0,10) })
       })
       .catch(err => console.log(err))
   }
