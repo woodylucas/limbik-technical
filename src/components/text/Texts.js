@@ -2,6 +2,7 @@ import React from 'react'
 import axios from 'axios'
 import Spinner from '../layout/Spinner'
 import { Link } from 'react-router-dom'
+import Moment from 'react-moment'
 
 class Texts extends React.Component {
   state = {
@@ -44,7 +45,7 @@ class Texts extends React.Component {
                 <strong>PDF: </strong>: {text.pdf}
               </li>
               <li className="list-group-item">
-                <strong>Created: </strong>: {text.created}
+                <strong>Created: </strong>: <Moment format="MM/DD/YYYY">{text.created}</Moment>
               </li>
             </ul>
 
