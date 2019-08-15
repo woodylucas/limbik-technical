@@ -12,8 +12,8 @@ const SpecificData = (props) => {
             <br/>
             <strong>IMPRESSIONS</strong>: {data.impressions}
           </p>
-          <Link to={`texts/data/${data.data_id}`} className="btn btn-dark btn-block">
-            <i className="fas fa-chevron-right"></i> View Text
+          <Link to={`text/texts/${data.id}`} className="btn btn-dark btn-block">
+            <i className="fas fa-chevron-right"></i> View Texts
           </Link>
 
         </div>

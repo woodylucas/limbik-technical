@@ -11,7 +11,7 @@ class Data extends React.Component {
         <Consumer>
           {value => {
             const { data_list, heading } = value;
-            console.log(data_list)
+            // console.log(data_list)
             if(data_list === undefined || data_list.length === 0) {
               return <Spinner />
             } else {
