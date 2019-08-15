@@ -3,10 +3,24 @@ import axios from 'axios';
 
 const Context = React.createContext();
 
+const reducer = (state, action) => {
+  switch(action.type) {
+    case 'SEARCH_ID':
+      return {
+        ...state,
+        data_list: action.payload,
+        heading: 'Search Results'
+      };
+      default:
+        return state;
+  }
+}
+
 export class Provider extends React.Component {
   state = {
     data_list: [],
-    heading: 'Description'
+    heading: 'Description',
+    dispatch: action => this.setState(state => reducer(state, action))
   };
 
   componentDidMount() {
