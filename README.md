@@ -13,7 +13,7 @@ If something doesn’t work, please [file an issue](https://github.com/facebook/
 
 ```sh
 npx create-react-app swish
-cd swish
+cd limbik-technical
 npm start
 ```
 
