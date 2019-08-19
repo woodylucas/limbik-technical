@@ -42,9 +42,13 @@ The tradeoff is that **these tools are preconfigured to work in a specific way**
 
 ## Limbik-Technical
 
-User has the abilty to route another page with React Router and Search by ID.
+ Hello Limbik Team! 
+
+## Welcome to Data Analysis for Limbik-Technical 
 
 ![giphy](https://user-images.githubusercontent.com/34947061/63233793-2c44b680-c200-11e9-8781-487016139723.gif)
+
+## React Router gives users the ability navigate through screens to select an item, and view its details.
 
 ![giphy (1)](https://user-images.githubusercontent.com/34947061/63233873-96f5f200-c200-11e9-965d-27c66b227f64.gif)
 
