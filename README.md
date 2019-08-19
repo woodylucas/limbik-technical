@@ -12,7 +12,7 @@ If something doesn’t work, please [file an issue](https://github.com/facebook/
 ## Quick Overview
 
 ```sh
-npx create-react-app swish
+npx create-react-app limbik-technical
 cd limbik-technical
 npm start
 ```
