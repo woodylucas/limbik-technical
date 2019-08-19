@@ -1,5 +1,5 @@
-Limbik-Technical  Build Status PRs Welcome
-Create React apps with no build configuration.
+#Limbik  [![Build Status](https://travis-ci.org/facebook/create-react-app.svg?branch=master)](https://travis-ci.org/facebook/create-react-app) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-green.svg)](https://github.com/facebook/create-react-app/pulls)
+
 
 Creating an App – How to create a new app.
 User Guide – How to develop apps bootstrapped with Create React App.
