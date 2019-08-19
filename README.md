@@ -41,3 +41,11 @@ The tradeoff is that **these tools are preconfigured to work in a specific way**
 
 
 ## Limbik-Technical
+
+User has the abilty to route another page with React Router and Search by ID.
+
+![giphy](https://user-images.githubusercontent.com/34947061/63233793-2c44b680-c200-11e9-8781-487016139723.gif)
+
+![giphy (1)](https://user-images.githubusercontent.com/34947061/63233873-96f5f200-c200-11e9-965d-27c66b227f64.gif)
+
+
